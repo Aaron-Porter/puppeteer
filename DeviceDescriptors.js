@@ -328,6 +328,30 @@ module.exports = [
     }
   },
   {
+    'name': 'iPhone 7',
+    'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+    'viewport': {
+      'width': 375,
+      'height': 667,
+      'deviceScaleFactor': 2,
+      'isMobile': true,
+      'hasTouch': true,
+      'isLandscape': false
+    }
+  },
+  {
+    'name': 'iPhone 7 landscape',
+    'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+    'viewport': {
+      'width': 667,
+      'height': 375,
+      'deviceScaleFactor': 2,
+      'isMobile': true,
+      'hasTouch': true,
+      'isLandscape': true
+    }
+  },
+  {
     'name': 'Kindle Fire HDX',
     'userAgent': 'Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true',
     'viewport': {
